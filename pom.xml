@@ -14,9 +14,11 @@
         <module>db</module>
         <module>JavaEE-01</module>
         <module>JavaEE-02</module>
+        <module>JavaEE-SpringMVC</module>
     </modules>
 
     <dependencyManagement>
+
         <dependencies>
 
             <dependency>
@@ -45,6 +47,13 @@
                 <groupId>com.zaxxer</groupId>
                 <artifactId>HikariCP</artifactId>
                 <version>3.4.2</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-webmvc</artifactId>
+                <version>5.2.5.RELEASE</version>
             </dependency>
 
             <dependency>
